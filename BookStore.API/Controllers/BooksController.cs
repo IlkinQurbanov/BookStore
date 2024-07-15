@@ -1,5 +1,6 @@
 ﻿using BookStore.API.Contracts;
 using BookStore.Core.Abstractions;
+using BookStore.Core.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,6 +26,26 @@ namespace BookStore.API.Controllers
             return Ok(response);
         }
 
+
+
+        [HttpPost]
+        public async Task<ActionResult<Guid>> CreateBook([FromBody] BooksRequest request)
+        {
+            var (book, error) = Book.Create(
+                Guid.NewGuid(),
+                request.Title,
+                request.Description,
+                request.Price
+                );
+
+            if(!string.IsNullOrEmpty(error))
+            {
+                return BadRequest(error);
+            }
+
+           var bookId =  await _bookServce.CreateBook(book);
+            return Ok(bookId);    
+        }
 
     }
 }
