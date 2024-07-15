@@ -47,5 +47,17 @@ namespace BookStore.API.Controllers
             return Ok(bookId);    
         }
 
+
+        [HttpPut("{id.guid}")]
+        public async Task<ActionResult<Guid>> UpdateBook(Guid id,[FromBody] BooksRequest request)
+        {
+            var bookId = await _bookServce.UpdateBook(id, request.Title, request.Description, request.Price);
+
+
+            return Ok(bookId);
+        }
+
+
+
     }
 }
