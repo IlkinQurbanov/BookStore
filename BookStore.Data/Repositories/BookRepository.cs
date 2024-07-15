@@ -1,4 +1,5 @@
-﻿using BookStore.Core.Models;
+﻿using BookStore.Core.Abstractions;
+using BookStore.Core.Models;
 using BookStore.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Data.Repositories
 {
-    public class BookRepository :IBookRepository
+    public class BookRepository : IBookRepository
     {
         private readonly BookStoreDbContext _context;
         public BookRepository(BookStoreDbContext context)

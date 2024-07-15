@@ -1,0 +1,16 @@
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfoInputs.cache
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.AssemblyInfo.cs
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.sourcelink.json
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.csproj.AssemblyReference.cache
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.deps.json
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.dll
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Application.pdb
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Core.dll
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\bin\Debug\net8.0\BookStore.Core.pdb
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStor.D70AE061.Up2Date
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.dll
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\refint\BookStore.Application.dll
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\BookStore.Application.pdb
+C:\Users\Ilkin\Desktop\BookStore\BookStore.Application\obj\Debug\net8.0\ref\BookStore.Application.dll
